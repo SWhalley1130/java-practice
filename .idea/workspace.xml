@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1e5cfcd-6724-4908-8fc7-c29be061d443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter1/Chapter1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/Chapter2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter3/Chapter3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java-Practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/inheritance.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/src/GradedActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/GradedActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/src/FinalExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +39,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\swhal\Desktop\Coding Stuff\Java\Java-Practice\Databases\src" />
+      <recent name="C:\Users\swhal\Desktop\Coding Stuff\Java\Java-Practice\Inheritance\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Chapter2" />
@@ -90,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />

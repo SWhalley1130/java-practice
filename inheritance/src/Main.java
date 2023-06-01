@@ -4,20 +4,25 @@ public class Main
 {
     public static void main(String[] args)
     {
-        String input; 
-        double testScore; 
+        String input;
+        int questions;
+        int missed;
 
-        GradedActivity grade = new GradedActivity();
+        input=JOptionPane.showInputDialog("How many questions are on the final exam?");
+        questions=Integer.parseInt(input);
 
-        input=JOptionPane.showInputDialog("Enter a numeric test score.");
+        input=JOptionPane.showInputDialog("How many questions did the student miss?");
+        missed=Integer.parseInt(input);
 
-        testScore=Double.parseDouble(input);
+        FinalExam exam=new FinalExam(questions, missed);
 
-        grade.setScore(testScore);
-
-        JOptionPane.showMessageDialog(null, "The grade for that test is "+grade.getGrade());
+        JOptionPane.showMessageDialog(null, "Each question counts "+
+                exam.getPointsEach() + " points.\nThe exam score is " +
+                exam.getScore()+"\nThe exam grade is "+
+                exam.getGrade());
 
         System.exit(0);
+
     }
 
 }
