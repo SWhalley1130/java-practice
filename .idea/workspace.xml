@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1e5cfcd-6724-4908-8fc7-c29be061d443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/IntheritanceShapesActivities/IntheritanceShapesActivities.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IntheritanceShapesActivities/src/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IntheritanceShapesActivities/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IntheritanceShapesActivities/src/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/src/CurvedActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/CurvedActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
