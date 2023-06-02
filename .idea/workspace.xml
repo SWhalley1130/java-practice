@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1e5cfcd-6724-4908-8fc7-c29be061d443" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Inheritance/src/CurvedActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/CurvedActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
       <recent name="C:\Users\swhal\Desktop\Coding Stuff\Java\Java-Practice\Inheritance\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="IntheritanceShapesActivities" />
@@ -82,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
@@ -111,5 +111,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
