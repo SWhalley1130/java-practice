@@ -5,26 +5,25 @@ public class Main
 {
     public static void main(String[] args)
     {
-        String input;
-        int questions;
-        int missed;
+        int questions, missed;
+        double minPassing;
 
-        input = JOptionPane.showInputDialog("How many questions are on the final exam?");
-        questions=Integer.parseInt(input);
+        Scanner keyboard=new Scanner(System.in);
 
-        input=JOptionPane.showInputDialog("How many questions did the student miss?");
-        missed=Integer.parseInt(input);
+        System.out.print("How many questions are on the exam?: ");
+        questions=keyboard.nextInt();
 
-        FinalExam2 exam =new FinalExam2(questions, missed);
+        System.out.print("How many questions did the student miss? ");
+        missed=keyboard.nextInt();
 
-        JOptionPane.showMessageDialog(null, "Each question counts "+
-                exam.getPointsEach()+
-                " points.\nThe exam score is "+
-                exam.getScore() +
-                "\nThe exam grade is "+
-                exam.getGrade());
+        System.out.print("What is the minimum passing score?: ");
+        minPassing=keyboard.nextDouble();
 
-        System.exit(0);
+        PassFailExam exam = new PassFailExam(questions, missed, minPassing);
+
+        System.out.println("Each questions counts as "+exam.getPointsEach()+" points.");
+        System.out.println("The exam score is "+exam.getScore());
+        System.out.println("The exam grade is "+exam.getGrade());
 
     }
 
