@@ -1,25 +1,30 @@
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Main
 {
     public static void main(String[] args)
     {
-        double score;
-        double curvePercent;
-        Scanner keyboard=new Scanner(System.in);
+        String input;
+        int questions;
+        int missed;
 
-        System.out.print("Enter the student's raw numeric score: ");
-        score=keyboard.nextDouble();
+        input = JOptionPane.showInputDialog("How many questions are on the final exam?");
+        questions=Integer.parseInt(input);
 
-        System.out.print("Enter the curve percentage: ");
-        curvePercent=keyboard.nextDouble();
+        input=JOptionPane.showInputDialog("How many questions did the student miss?");
+        missed=Integer.parseInt(input);
 
-        CurvedActivity curvedExam= new CurvedActivity(curvePercent);
-        curvedExam.setScore(score);
+        FinalExam2 exam =new FinalExam2(questions, missed);
 
-        System.out.println("The raw score is "+curvedExam.getScore());
-        System.out.println("The curved score is "+curvedExam.getScore());
-        System.out.println("The exam grade is "+curvedExam.getGrade());
+        JOptionPane.showMessageDialog(null, "Each question counts "+
+                exam.getPointsEach()+
+                " points.\nThe exam score is "+
+                exam.getScore() +
+                "\nThe exam grade is "+
+                exam.getGrade());
+
+        System.exit(0);
 
     }
 
